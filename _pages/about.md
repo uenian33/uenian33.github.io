@@ -169,8 +169,6 @@ My current research focuses on **visual representation learning**, **model-free 
 <br/><br/>
 <br/><br/>
 <br/><br/>
-<br/><br/>
-<br/><br/>
 
 
 
