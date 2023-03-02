@@ -195,7 +195,7 @@ My current research focuses on **visual representation learning**, **model-free 
   <img src='images/grasp.png' alt="sym" width="100%"></div></div>
   <div class='paper-box-text' markdown="1">
 
-  [**General graping controller for Motoman NX100 **]
+  [**General graping controller for Motoman NX100**]
   -  This project implements a depth image-based object grasping pose estimator for Motoman NX100.
   - [GitHub](https://github.com/uenian33/nx100_robotic_tasks)
   - [Vid](https://www.youtube.com/watch?v=NBE9e7AJw6I)
