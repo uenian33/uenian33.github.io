@@ -16,6 +16,7 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
+<style>body {text-align: justify}</style>
 I am a final year Ph.D. student at Computer Vision Group at Tampere University, under the joint supervision of Prof. Joni Kämäräinen and Joni Pajarinen (Aalto University). 
 
 I have 6 years of interdisciplinary research and industrial experience in computer vision and robot learning/deep learning, and worked on **two academic-industrial cooperation projects** with **Co. Nokia**  and  **Co. Cargotec** (supervised by Dr.Juho Vihonen and Dr.Mohammad M. Aref).
@@ -152,44 +153,9 @@ My current research focuses on **visual representation learning**, **model-free 
 
 # 👨‍💻 Projects
 
-## Research projects
-<div class='paper-box'>
-  <div class='paper-box-image'><div>
-  <img src='images/500x300.png' alt="sym" width="100%"></div></div>
-  <div class='paper-box-text' markdown="1">
+## Industrial projects
 
-
-  [**Learning general skills from Offline Datsets**]
-  - *2021 - now*
-  -  
-</div>
-</div>
-
-
-
-<div class='paper-box'>
-  <div class='paper-box-image'><div>
-  <img src='images/500x300.png' alt="sym" width="100%"></div></div>
-  <div class='paper-box-text' markdown="1">
-
-  [**Autonomous Pile-Loading for Heavy-Duty Machines**]
-  - *2019 - 2021*
-
-  - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
-
-</div>
-</div>
-
-
-
-
-<div class='paper-box'>
-  <div class='paper-box-image'><div>
-  <img src='images/500x300.png' alt="sym" width="100%"></div></div>
-  <div class='paper-box-text' markdown="1">
-
-  [**Autonomous Industrial Crane Controller (Co. Cargotec)**]
+[**Autonomous Industrial Crane Controller (Co. Cargotec)**]
   - *2019 - 2022.12*
 
   - [DSII]() project with Co. Cargotec.
@@ -198,50 +164,46 @@ My current research focuses on **visual representation learning**, **model-free 
 
   - We designed a reinforcement learning-based controller for industrial cranes to handle autonomous container logistics. The research outcomes with a [WO patent](https://patents.google.com/patent/WO2022008793A1/en?oq=WO2022008793A1) and a deliverable solution on the real cranes.
 
-</div>
-</div>
 
 
 
-<div class='paper-box'>
-  <div class='paper-box-image'><div>
-  <img src='images/500x300.png' alt="sym" width="100%"></div></div>
-  <div class='paper-box-text' markdown="1">
-
-  [**360 Video Object Detection Project (Co. Nokia)**]
+[**360 Video Object Detection Project (Co. Nokia)**]
   - *2017 - 2018*
  
   - In this research work, we deliver a solution of object detection in 360° videos for the NOKIA OZO camera. The project aims at implementing object detection features on the OZO camera to enable its use in real-world applications, such as detecting if construction workers are following safety instructions.
 
   - The research outcomes with a novel panoramic object detection dataset and a YOLO-based 360° image object detection baseline ([link](https://github.com/uenian33/360_object_detection_dataset)). 
-</div>
-</div>
+
 
 
 ## Other projects
 
 <div class='paper-box'>
   <div class='paper-box-image'><div>
-  <img src='images/500x300.png' alt="sym" width="100%"></div></div>
-  <div class='paper-box-text' markdown="1">
-
-
-  [**Generalized Grasping policy for Robot**]
-  -  
-</div>
-</div>
-
-
-<div class='paper-box'>
-  <div class='paper-box-image'><div>
-  <img src='images/500x300.png' alt="sym" width="100%"></div></div>
+  <img src='images/depth.png' alt="sym" width="100%"></div></div>
   <div class='paper-box-text' markdown="1">
 
 
   [**Depth Image Data augmentation**]
-  -  
+  -  Generating SGM calculated disparity estimation from monocular RGB image. This project provides a python based library which generates stereo disparity map from a single image input. This project can be used as data augmentation for generating real depth camera like depth images. ([link](https://github.com/uenian33/mono2SGM))
+
 </div>
 </div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'><div>
+  <img src='images/grasp.png' alt="sym" width="100%"></div></div>
+  <div class='paper-box-text' markdown="1">
+
+  [**General graping controller for Motoman NX100 **]
+  -  This project implements a depth image-based object grasping pose estimator for Motoman NX100.
+  - [GitHub](https://github.com/uenian33/nx100_robotic_tasks)
+  - [Vid](https://www.youtube.com/watch?v=NBE9e7AJw6I)
+
+</div>
+</div>
+
+
 
 
 
@@ -254,8 +216,6 @@ My current research focuses on **visual representation learning**, **model-free 
 -Tools: Proficient in PyTorch, Numpy, OpenCV, Git, Bash, etc. Experience with TensorFlow, ROS, JAX, etc.
 
 
-# 📁 Resume
-[Download link]()
 
 <br/><br/>
 
