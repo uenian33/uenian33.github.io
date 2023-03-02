@@ -16,43 +16,165 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
+I am a final year Ph.D. student, affiliated with the esteemed Computer Vision Group at Tampere University, under the joint supervision of Prof. Joni Kämäräinen and Joni Pajarinen (Aalto University). 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+With over 6 years of interdisciplinary research and industrial experience in computer vision and robot learning/deep learning,  I was lucky to work on **two academic-industrial cooperation projects** with **Co. Nokia** (panoramic image processing) and  **Co. Cargotec** (Crane-cargo handling project supervised by Dr.Juho Vihonen and Dr.Mohammad M. Aref).
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+My current research focuses on **visual representation learning**, **model-free imitation learning**, and **offline model-free reinforcement learning/planning**, with the goal of developing safe-AI solutions for real-world applications. My research outcomes have been published in top-tier international robot/AI conferences such as ICRA, IROS, NeurIPS, and resulted in one WO patent in the related fields (<a href='https://scholar.google.com/citations?user=0bTF5XUAAAAJ'>link </a>). In addition, I have served as a PC Member of various conferences, including BMVC, ICRA, IROS, and AAAI.. 
 
 
-# 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+
+
+# 🏫 Educations
+- *2019.03 - now*, Ph.D. student, Tampere university 
+- *2016.08 - 2019.09*, Master, Human-technology Interaction, Tampere university 
+- *2012.09 - 2016.06*, Undergraduate, Computer Science, Sichuan University
+
+
+
+
+
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+##  Preprints
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+- `Preprint` [Prioritized offline Goal-swapping Experience Replay](https://arxiv.org/pdf/2302.07741), **Wenyan Yang**, Joni Pajarinen, Dinging Cai, Joni Kämäräinen
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- `Preprint` [Swapped goal-conditioned offline Reinforcement Learning](https://arxiv.org/pdf/2302.08865), 
+Wenyan Yang, Huiling Wang, Dingding Cai, Joni Pajarinen, Joni-Kristen Kämäräinen
+
+
+##  Patent
+
+- `WO Patent` [Method and apparatus for relative positioning of a spreader](https://patents.google.com/patent/WO2022008793A1/en?oq=WO2022008793A1),
+ Wenyan Yang, Mohammad Aref, Juho Vihonen, Jyri Lukkala, Mikko Asikainen, Hannu Santahuhta
+
+##  Conferences
+
+
+- [Seq2Seq Imitation Learning for Tactile Feedback-based Manipulation
+](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0bTF5XUAAAAJ&sortby=pubdate&citation_for_view=0bTF5XUAAAAJ:W7OEmFMy1HYC), **Wenyan Yang**, Alexandre Angleraud, Roel S. Pieters, Joni Pajarinen, Joni-Kristian Kamarainen `ICRA 2023` 
+
+-  [Constrained Imitation Q-learning with Earth Mover’s Distance reward](https://openreview.net/pdf?id=rzfPNkOyC7O), **Wenyan Yang**, Nataliya Strokina, Joni Pajarinen, Joni-Kristian Kämäräinen `NeurIPS workshop 2022`
+
+
+-  [Monolithic vs. hybrid controller for multi-objective Sim-to-Real learning](https://ieeexplore.ieee.org/iel7/9635848/9635849/09636426.pdf), Atakan Dag, Alexandre Angleraud, **Wenyan Yang**, Nataliya Strokina, Roel S Pieters, Minna Lanz, Joni-Kristian Kämäräinen `IROS 2022`
+
+
+-  [Neural Network Controller for Autonomous Pile Loading Revised](https://ieeexplore.ieee.org/iel7/9560720/9560666/09561804.pdf), **Wenyan Yang**, Nataliya Strokina, Nikolay Serbenyuk, Joni Pajarinen, Reza Ghabcheloo, Juho Vihonen, Mohammad M Aref, Joni-Kristian Kämäräinen `ICRA 2021`
+
+
+-  [Learning a pile loading controller from demonstrations](https://ieeexplore.ieee.org/iel7/9187508/9196508/09196907.pdf), **Wenyan Yang**, Nataliya Strokina, Nikolay Serbenyuk, Reza Ghabcheloo, Joni Kämäräinen `ICRA 2020`
+
+
+
+-  [Object detection in equirectangular panorama](https://ieeexplore.ieee.org/iel7/8527858/8545020/08546070.pdf), **Wenyan Yang**, Yanlin Qian, Joni-Kristian Kämäräinen, Francesco Cricri, Lixin Fan `ICPR 2018`
+
+
+##  Journal
+
+- `Frontiers in Robotics and AI` [Visual Rewards From Observation for Sequential Tasks: Autonomous Pile Loading](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9194444/), Nataliya Strokina, **Wenyan Yang**, Joni Pajarinen, Nikolay Serbenyuk, Joni Kämäräinen, Reza Ghabcheloo
+
+## 📚Others
+- `ECCV VOT challenge 2022` [The Tenth Visual Object Tracking VOT2022 Challenge Results](https://link.springer.com/chapter/10.1007/978-3-031-25085-9_25), Matej Kristan, Ales Leonardis, Jiri Matas, Michael Felsberg, Roman Pflugfelder, Joni-Kristian Kamarainen, Hyung Jin Chang,MartinDanelljan,LukaCˇehovinZajc,AlanLukezˇicˇ, Ondrej Drbohlav, Johanna Bjorklund, Yushan Zhang, Zhongqun Zhang, Song Yan, **Wenyan Yang**, Dingding Cai, Christoph Mayer, and Gustavo Fernandez.
+
+
+
+
+# 👨‍💻 Projects
+
+## Research projects
+<div class='paper-box'>
+  <div class='paper-box-image'><div>
+  <img src='images/500x300.png' alt="sym" width="100%"></div></div>
+  <div class='paper-box-text' markdown="1">
+
+
+  [Learning general skills from Offline Goal-conditioned Reinforcement Learning](https://arxiv.org/abs/2302.07741)
+  - *2021 - now*
+  - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+
+  - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+<div class='paper-box'>
+  <div class='paper-box-image'><div>
+  <img src='images/500x300.png' alt="sym" width="100%"></div></div>
+  <div class='paper-box-text' markdown="1">
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+  [(DSII project with Co. Cargotec)](https://openreview.net/pdf?id=rzfPNkOyC7O)
+  - *2019 - 2022.12*
+
+  - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+
+  - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+
+</div>
+</div>
+
+
+<div class='paper-box'>
+  <div class='paper-box-image'><div>
+  <img src='images/500x300.png' alt="sym" width="100%"></div></div>
+  <div class='paper-box-text' markdown="1">
+
+  [Autonomous pile-loading for Heavy-duty Machines](https://openreview.net/pdf?id=rzfPNkOyC7O)
+  - *2019 - 2021*
+
+  - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+
+  - [Yang, Wenyan, Nataliya Strokina, Joni Pajarinen, and Joni-kristian Kamarainen. "Constrained Imitation Q-learning with Earth Mover’s Distance reward." **In Deep Reinforcement Learning Workshop NeurIPS 2022.**]
+
+</div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'><div>
+  <img src='images/500x300.png' alt="sym" width="100%"></div></div>
+  <div class='paper-box-text' markdown="1">
+
+  [360 Video object detection project(Co. Nokia)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9194444/)
+  - *2017 - 2018*
+ 
+  - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+
+  - [Strokina, Nataliya, Wenyan Yang, Joni Pajarinen, Nikolay Serbenyuk, Joni Kämäräinen, and Reza Ghabcheloo. "Visual Rewards From Observation for Sequential Tasks: Autonomous Pile Loading." **Frontiers in Robotics and AI 9 (2022).**]
+
+</div>
+</div>
+
+
+## Other projects
+
+
+# 🎖 Experiences
+
+## Technical skills
+
+-Programming: Proficient in Python and past experience with C, C++, Java, MATLAB and other languages.
+
+-Tools: Proficient in PyTorch, Numpy, OpenCV, Git, Bash, etc. Experience with TensorFlow, ROS, JAX, etc.
+
+
+# 📁 Resume
+[Download link]()
+
+<br/><br/>
+<br/><br/>
+<br/><br/>
+<br/><br/>
+<br/><br/>
+
+
+
+
+
+
+
