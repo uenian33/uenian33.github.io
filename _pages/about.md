@@ -18,9 +18,9 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 I am a final year Ph.D. student at Computer Vision Group at Tampere University, under the joint supervision of Prof. Joni Kämäräinen and Joni Pajarinen (Aalto University). 
 
-I have 6 years of interdisciplinary research and industrial experience in computer vision and robot learning/deep learning, and I was lucky to work on **two academic-industrial cooperation projects** with **Co. Nokia** (panoramic image processing) and  **Co. Cargotec** (Crane-cargo handling project supervised by Dr.Juho Vihonen and Dr.Mohammad M. Aref).
+I have 6 years of interdisciplinary research and industrial experience in computer vision and robot learning/deep learning, and worked on **two academic-industrial cooperation projects** with **Co. Nokia**  and  **Co. Cargotec** (supervised by Dr.Juho Vihonen and Dr.Mohammad M. Aref).
 
-My current research focuses on **visual representation learning**, **model-free imitation learning**, and **offline model-free reinforcement learning/planning**, with the goal of developing safe-AI solutions for real-world applications. My research outcomes have been published in top-tier international robot/AI conferences such as ICRA, IROS, NeurIPS, and resulted in one WO patent in the related fields (<a href='https://scholar.google.com/citations?user=0bTF5XUAAAAJ'>link </a>). In addition, I have served as a PC Member of various conferences, including BMVC, ICRA, IROS, and AAAI.. 
+My current research focuses on **visual representation learning**, **model-free imitation learning**, and **offline model-free reinforcement learning/planning**, with the goal of developing safe-AI solutions for real-world applications. My research outcomes have been published in top-tier international robot/AI conferences such as ICRA, IROS, NeurIPS, and resulted in one WO patent in the related fields (<a href='https://scholar.google.com/citations?user=0bTF5XUAAAAJ'>link </a>). In addition, I have served as a PC Member of various conferences, including BMVC, ICRA, IROS, and AAAI.
 
 
 
@@ -32,7 +32,7 @@ My current research focuses on **visual representation learning**, **model-free 
 
 <div class='small-paper-box'>
   <div class='small-paper-box-image'><div>
-  <img src='images/500x300.png' alt="sym" width="100%"></div></div>
+  <img src='images/pger.png' alt="sym" width="100%"></div></div>
   <div class='small-paper-box-text' markdown="1">
 
   [Prioritized offline Goal-swapping Experience Replay](https://arxiv.org/pdf/2302.07741) 
@@ -44,7 +44,7 @@ My current research focuses on **visual representation learning**, **model-free 
 
 <div class='small-paper-box'>
   <div class='small-paper-box-image'><div>
-  <img src='images/500x300.png' alt="sym" width="100%"></div></div>
+  <img src='images/offline_gcrl.png' alt="sym" width="100%"></div></div>
   <div class='small-paper-box-text' markdown="1">
 
   [Swapped goal-conditioned offline Reinforcement Learning](https://arxiv.org/pdf/2302.08865), 
@@ -59,7 +59,7 @@ My current research focuses on **visual representation learning**, **model-free 
 
 <div class='small-paper-box'>
   <div class='small-paper-box-image'><div>
-  <img src='images/500x300.png' alt="sym" width="100%"></div></div>
+  <img src='images/seq2seq.png' alt="sym" width="100%"></div></div>
   <div class='small-paper-box-text' markdown="1">
 
   [Seq2Seq Imitation Learning for Tactile Feedback-based Manipulation](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0bTF5XUAAAAJ&sortby=pubdate&citation_for_view=0bTF5XUAAAAJ:W7OEmFMy1HYC)
@@ -71,7 +71,7 @@ My current research focuses on **visual representation learning**, **model-free 
 
 <div class='small-paper-box'>
   <div class='small-paper-box-image'><div>
-  <img src='images/500x300.png' alt="sym" width="100%"></div></div>
+  <img src='images/cemd.png' alt="sym" width="100%"></div></div>
   <div class='small-paper-box-text' markdown="1">
 
   [Constrained Imitation Q-learning with Earth Mover’s Distance reward](https://openreview.net/pdf?id=rzfPNkOyC7O)
@@ -83,7 +83,7 @@ My current research focuses on **visual representation learning**, **model-free 
 
 <div class='small-paper-box'>
   <div class='small-paper-box-image'><div>
-  <img src='images/500x300.png' alt="sym" width="100%"></div></div>
+  <img src='images/hybrid.png' alt="sym" width="100%"></div></div>
   <div class='small-paper-box-text' markdown="1">
 
   [Monolithic vs. hybrid controller for multi-objective Sim-to-Real learning](https://ieeexplore.ieee.org/iel7/9635848/9635849/09636426.pdf)
@@ -96,7 +96,7 @@ My current research focuses on **visual representation learning**, **model-free 
 
 <div class='small-paper-box'>
   <div class='small-paper-box-image'><div>
-  <img src='images/500x300.png' alt="sym" width="100%"></div></div>
+  <img src='images/nn_pile.png' alt="sym" width="100%"></div></div>
   <div class='small-paper-box-text' markdown="1">
 
   [Neural Network Controller for Autonomous Pile Loading Revised](https://ieeexplore.ieee.org/iel7/9560720/9560666/09561804.pdf)
@@ -109,7 +109,7 @@ My current research focuses on **visual representation learning**, **model-free 
 
 <div class='small-paper-box'>
   <div class='small-paper-box-image'><div>
-  <img src='images/500x300.png' alt="sym" width="100%"></div></div>
+  <img src='images/rf_pile.png' alt="sym" width="100%"></div></div>
   <div class='small-paper-box-text' markdown="1">
 
   [Learning a pile loading controller from demonstrations](https://ieeexplore.ieee.org/iel7/9187508/9196508/09196907.pdf)
@@ -122,7 +122,7 @@ My current research focuses on **visual representation learning**, **model-free 
 
 <div class='small-paper-box'>
   <div class='small-paper-box-image'><div>
-  <img src='images/500x300.png' alt="sym" width="100%"></div></div>
+  <img src='images/360.png' alt="sym" width="100%"></div></div>
   <div class='small-paper-box-text' markdown="1">
 
   [Object detection in equirectangular panorama](https://ieeexplore.ieee.org/iel7/8527858/8545020/08546070.pdf)
@@ -189,10 +189,11 @@ My current research focuses on **visual representation learning**, **model-free 
   <img src='images/500x300.png' alt="sym" width="100%"></div></div>
   <div class='paper-box-text' markdown="1">
 
-  [Autonomous Industrial Crane Controller **(Co. Cargotec)**]
+  [**Autonomous Industrial Crane Controller (Co. Cargotec)**]
   - *2019 - 2022.12*
 
-  - [DSII]() project
+  - [DSII]() project with Co. Cargotec.
+
   - The heavy load transportation industry often involves the handling of large and weighty loads, particularly during the loading and unloading of vehicles in harbor and shipyard settings. One of the key tools used in container logistics is the spreader, which is mounted on crane systems to lift and move containers. Unfortunately, this equipment is typically operated by a human operator who requires extensive training to become proficient in using the spreader control system, making it prone to human errors.
 
   - We designed a reinforcement learning-based controller for industrial cranes to handle autonomous container logistics. The research outcomes with a [WO patent](https://patents.google.com/patent/WO2022008793A1/en?oq=WO2022008793A1) and a deliverable solution on the real cranes.
@@ -225,7 +226,7 @@ My current research focuses on **visual representation learning**, **model-free 
   <div class='paper-box-text' markdown="1">
 
 
-  [**Generalized Grasping skills Robot  **]
+  [**Generalized Grasping policy for Robot**]
   -  
 </div>
 </div>
@@ -237,7 +238,7 @@ My current research focuses on **visual representation learning**, **model-free 
   <div class='paper-box-text' markdown="1">
 
 
-  [**Data augmentation for depth image processing**]
+  [**Depth Image Data augmentation**]
   -  
 </div>
 </div>
