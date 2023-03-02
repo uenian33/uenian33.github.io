@@ -43,13 +43,13 @@ My current research focuses on **visual representation learning**, **model-free 
 
 
 - `Preprint` [Swapped goal-conditioned offline Reinforcement Learning](https://arxiv.org/pdf/2302.08865), 
-Wenyan Yang, Huiling Wang, Dingding Cai, Joni Pajarinen, Joni-Kristen Kämäräinen
+**Wenyan Yang**, Huiling Wang, Dingding Cai, Joni Pajarinen, Joni-Kristen Kämäräinen
 
 
 ##  Patent
 
 - `WO Patent` [Method and apparatus for relative positioning of a spreader](https://patents.google.com/patent/WO2022008793A1/en?oq=WO2022008793A1),
- Wenyan Yang, Mohammad Aref, Juho Vihonen, Jyri Lukkala, Mikko Asikainen, Hannu Santahuhta
+**Wenyan Yang**, Mohammad Aref, Juho Vihonen, Jyri Lukkala, Mikko Asikainen, Hannu Santahuhta
 
 ##  Conferences
 
