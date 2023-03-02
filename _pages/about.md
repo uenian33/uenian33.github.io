@@ -54,23 +54,23 @@ My current research focuses on **visual representation learning**, **model-free 
 ##  Conferences
 
 
-- [Seq2Seq Imitation Learning for Tactile Feedback-based Manipulation
-](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0bTF5XUAAAAJ&sortby=pubdate&citation_for_view=0bTF5XUAAAAJ:W7OEmFMy1HYC), **Wenyan Yang**, Alexandre Angleraud, Roel S. Pieters, Joni Pajarinen, Joni-Kristian Kamarainen `ICRA 2023` 
+- `ICRA 2023` [Seq2Seq Imitation Learning for Tactile Feedback-based Manipulation
+](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0bTF5XUAAAAJ&sortby=pubdate&citation_for_view=0bTF5XUAAAAJ:W7OEmFMy1HYC), **Wenyan Yang**, Alexandre Angleraud, Roel S. Pieters, Joni Pajarinen, Joni-Kristian Kamarainen  
 
--  [Constrained Imitation Q-learning with Earth Mover’s Distance reward](https://openreview.net/pdf?id=rzfPNkOyC7O), **Wenyan Yang**, Nataliya Strokina, Joni Pajarinen, Joni-Kristian Kämäräinen `NeurIPS workshop 2022`
-
-
--  [Monolithic vs. hybrid controller for multi-objective Sim-to-Real learning](https://ieeexplore.ieee.org/iel7/9635848/9635849/09636426.pdf), Atakan Dag, Alexandre Angleraud, **Wenyan Yang**, Nataliya Strokina, Roel S Pieters, Minna Lanz, Joni-Kristian Kämäräinen `IROS 2022`
+- `NeurIPS workshop 2022` [Constrained Imitation Q-learning with Earth Mover’s Distance reward](https://openreview.net/pdf?id=rzfPNkOyC7O), **Wenyan Yang**, Nataliya Strokina, Joni Pajarinen, Joni-Kristian Kämäräinen 
 
 
--  [Neural Network Controller for Autonomous Pile Loading Revised](https://ieeexplore.ieee.org/iel7/9560720/9560666/09561804.pdf), **Wenyan Yang**, Nataliya Strokina, Nikolay Serbenyuk, Joni Pajarinen, Reza Ghabcheloo, Juho Vihonen, Mohammad M Aref, Joni-Kristian Kämäräinen `ICRA 2021`
+-  `IROS 2022` [Monolithic vs. hybrid controller for multi-objective Sim-to-Real learning](https://ieeexplore.ieee.org/iel7/9635848/9635849/09636426.pdf), Atakan Dag, Alexandre Angleraud, **Wenyan Yang**, Nataliya Strokina, Roel S Pieters, Minna Lanz, Joni-Kristian Kämäräinen 
 
 
--  [Learning a pile loading controller from demonstrations](https://ieeexplore.ieee.org/iel7/9187508/9196508/09196907.pdf), **Wenyan Yang**, Nataliya Strokina, Nikolay Serbenyuk, Reza Ghabcheloo, Joni Kämäräinen `ICRA 2020`
+- `ICRA 2021` [Neural Network Controller for Autonomous Pile Loading Revised](https://ieeexplore.ieee.org/iel7/9560720/9560666/09561804.pdf), **Wenyan Yang**, Nataliya Strokina, Nikolay Serbenyuk, Joni Pajarinen, Reza Ghabcheloo, Juho Vihonen, Mohammad M Aref, Joni-Kristian Kämäräinen 
+
+
+- `ICRA 2020` [Learning a pile loading controller from demonstrations](https://ieeexplore.ieee.org/iel7/9187508/9196508/09196907.pdf), **Wenyan Yang**, Nataliya Strokina, Nikolay Serbenyuk, Reza Ghabcheloo, Joni Kämäräinen 
 
 
 
--  [Object detection in equirectangular panorama](https://ieeexplore.ieee.org/iel7/8527858/8545020/08546070.pdf), **Wenyan Yang**, Yanlin Qian, Joni-Kristian Kämäräinen, Francesco Cricri, Lixin Fan `ICPR 2018`
+- `ICPR 2018` [Object detection in equirectangular panorama](https://ieeexplore.ieee.org/iel7/8527858/8545020/08546070.pdf), **Wenyan Yang**, Yanlin Qian, Joni-Kristian Kämäräinen, Francesco Cricri, Lixin Fan 
 
 
 ##  Journal
@@ -92,7 +92,7 @@ My current research focuses on **visual representation learning**, **model-free 
   <div class='paper-box-text' markdown="1">
 
 
-  [Learning general skills from Offline Goal-conditioned Reinforcement Learning](https://arxiv.org/abs/2302.07741)
+  [**Learning general skills from Offline Goal-conditioned Reinforcement Learning**]
   - *2021 - now*
   - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
@@ -109,7 +109,7 @@ My current research focuses on **visual representation learning**, **model-free 
   <img src='images/500x300.png' alt="sym" width="100%"></div></div>
   <div class='paper-box-text' markdown="1">
 
-  [(DSII project with Co. Cargotec)](https://openreview.net/pdf?id=rzfPNkOyC7O)
+  [**(DSII project with Co. Cargotec)**]
   - *2019 - 2022.12*
 
   - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
@@ -125,7 +125,7 @@ My current research focuses on **visual representation learning**, **model-free 
   <img src='images/500x300.png' alt="sym" width="100%"></div></div>
   <div class='paper-box-text' markdown="1">
 
-  [Autonomous pile-loading for Heavy-duty Machines](https://openreview.net/pdf?id=rzfPNkOyC7O)
+  [**Autonomous pile-loading for Heavy-duty Machines**]
   - *2019 - 2021*
 
   - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
@@ -140,7 +140,7 @@ My current research focuses on **visual representation learning**, **model-free 
   <img src='images/500x300.png' alt="sym" width="100%"></div></div>
   <div class='paper-box-text' markdown="1">
 
-  [360 Video object detection project(Co. Nokia)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9194444/)
+  [**360 Video object detection project(Co. Nokia)**]
   - *2017 - 2018*
  
   - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
