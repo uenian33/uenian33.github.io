@@ -31,17 +31,6 @@ My current research focuses on **visual representation learning**, **model-free 
 
 ##  Preprints
 
-<div class='small-paper-box'>
-  <div class='small-paper-box-image'><div>
-  <img src='images/pger.png' alt="sym" width="100%"></div></div>
-  <div class='small-paper-box-text' markdown="1">
-
-  [Prioritized offline Goal-swapping Experience Replay](https://arxiv.org/pdf/2302.07741) 
-  - **Wenyan Yang**, Joni Pajarinen, Dinging Cai, Joni Kämäräinen
-  - `Preprint` arXiv, 2023
- 
-</div>
-</div>
 
 <div class='small-paper-box'>
   <div class='small-paper-box-image'><div>
@@ -57,6 +46,18 @@ My current research focuses on **visual representation learning**, **model-free 
 
 
 ##  Conferences
+
+<div class='small-paper-box'>
+  <div class='small-paper-box-image'><div>
+  <img src='images/pger.png' alt="sym" width="100%"></div></div>
+  <div class='small-paper-box-text' markdown="1">
+
+  [Prioritized offline Goal-swapping Experience Replay](https://arxiv.org/pdf/2302.07741) 
+  - **Wenyan Yang**, Joni Pajarinen, Dinging Cai, Joni Kämäräinen
+  - `ICLR RRL workshop 2023` 
+ 
+</div>
+</div>
 
 <div class='small-paper-box'>
   <div class='small-paper-box-image'><div>
