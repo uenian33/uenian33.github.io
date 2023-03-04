@@ -16,7 +16,7 @@ google_analytics_id      :  "G-391WJPDDMM" # get google_analytics_id from https:
 
 # SEO Related
 # google-site-verification=fm7i3Z0NTh17IdVKr8GE2gcPK5tV4MtlAE6pzwqkFrs
-google_site_verification :  "googled48cbbb70ef2d73d.html" # get google_site_verification from https://search.google.com/search-console/about
+google_site_verification :  "fm7i3Z0NTh17IdVKr8GE2gcPK5tV4MtlAE6pzwqkFrs" # get google_site_verification from https://search.google.com/search-console/about
 bing_site_verification   :  # get bing_site_verification from https://www.bing.com/webmasters/about
 baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
 
