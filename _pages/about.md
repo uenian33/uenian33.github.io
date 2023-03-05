@@ -34,7 +34,7 @@ My current research focuses on **visual representation learning**, **model-free 
 
 <div class='small-paper-box'>
   <div class='small-paper-box-image'><div>
-  <img src='images/offline_gcrl.png' alt="sym" width="100%"></div></div>
+  <img src='images/wenyan_yang_offline_gcrl.png' alt="sym" width="100%"></div></div>
   <div class='small-paper-box-text' markdown="1">
 
   [Swapped goal-conditioned offline Reinforcement Learning](https://arxiv.org/pdf/2302.08865), 
@@ -49,7 +49,7 @@ My current research focuses on **visual representation learning**, **model-free 
 
 <div class='small-paper-box'>
   <div class='small-paper-box-image'><div>
-  <img src='images/pger.png' alt="sym" width="100%"></div></div>
+  <img src='images/wenyan_yang_pger.png' alt="sym" width="100%"></div></div>
   <div class='small-paper-box-text' markdown="1">
 
   [Prioritized offline Goal-swapping Experience Replay](https://arxiv.org/pdf/2302.07741) 
@@ -61,7 +61,7 @@ My current research focuses on **visual representation learning**, **model-free 
 
 <div class='small-paper-box'>
   <div class='small-paper-box-image'><div>
-  <img src='images/seq2seq.png' alt="sym" width="100%"></div></div>
+  <img src='images/wenyan_yang_seq2seq.png' alt="sym" width="100%"></div></div>
   <div class='small-paper-box-text' markdown="1">
 
   [Seq2Seq Imitation Learning for Tactile Feedback-based Manipulation](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0bTF5XUAAAAJ&sortby=pubdate&citation_for_view=0bTF5XUAAAAJ:W7OEmFMy1HYC)
@@ -73,7 +73,7 @@ My current research focuses on **visual representation learning**, **model-free 
 
 <div class='small-paper-box'>
   <div class='small-paper-box-image'><div>
-  <img src='images/cemd.png' alt="sym" width="100%"></div></div>
+  <img src='images/wenyan_yang_cemd.png' alt="sym" width="100%"></div></div>
   <div class='small-paper-box-text' markdown="1">
 
   [Constrained Imitation Q-learning with Earth Mover’s Distance reward](https://openreview.net/pdf?id=rzfPNkOyC7O)
@@ -85,7 +85,7 @@ My current research focuses on **visual representation learning**, **model-free 
 
 <div class='small-paper-box'>
   <div class='small-paper-box-image'><div>
-  <img src='images/hybrid.png' alt="sym" width="100%"></div></div>
+  <img src='images/wenyan_yang_hybrid.png' alt="sym" width="100%"></div></div>
   <div class='small-paper-box-text' markdown="1">
 
   [Monolithic vs. hybrid controller for multi-objective Sim-to-Real learning](https://ieeexplore.ieee.org/iel7/9635848/9635849/09636426.pdf)
@@ -98,7 +98,7 @@ My current research focuses on **visual representation learning**, **model-free 
 
 <div class='small-paper-box'>
   <div class='small-paper-box-image'><div>
-  <img src='images/nn_pile.png' alt="sym" width="100%"></div></div>
+  <img src='images/wenyan_yang_nn_pile.png' alt="sym" width="100%"></div></div>
   <div class='small-paper-box-text' markdown="1">
 
   [Neural Network Controller for Autonomous Pile Loading Revised](https://ieeexplore.ieee.org/iel7/9560720/9560666/09561804.pdf)
@@ -111,7 +111,7 @@ My current research focuses on **visual representation learning**, **model-free 
 
 <div class='small-paper-box'>
   <div class='small-paper-box-image'><div>
-  <img src='images/rf_pile.png' alt="sym" width="100%"></div></div>
+  <img src='images/wenyan_yang_rf_pile.png' alt="sym" width="100%"></div></div>
   <div class='small-paper-box-text' markdown="1">
 
   [Learning a pile loading controller from demonstrations](https://ieeexplore.ieee.org/iel7/9187508/9196508/09196907.pdf)
@@ -124,7 +124,7 @@ My current research focuses on **visual representation learning**, **model-free 
 
 <div class='small-paper-box'>
   <div class='small-paper-box-image'><div>
-  <img src='images/360.png' alt="sym" width="100%"></div></div>
+  <img src='images/wenyan_yang_360.png' alt="sym" width="100%"></div></div>
   <div class='small-paper-box-text' markdown="1">
 
   [Object detection in equirectangular panorama](https://ieeexplore.ieee.org/iel7/8527858/8545020/08546070.pdf)
@@ -181,7 +181,7 @@ My current research focuses on **visual representation learning**, **model-free 
 
 <div class='paper-box'>
   <div class='paper-box-image'><div>
-  <img src='images/depth.png' alt="sym" width="100%"></div></div>
+  <img src='images/wenyan_yang_depth.png' alt="sym" width="100%"></div></div>
   <div class='paper-box-text' markdown="1">
 
 
@@ -193,7 +193,7 @@ My current research focuses on **visual representation learning**, **model-free 
 
 <div class='paper-box'>
   <div class='paper-box-image'><div>
-  <img src='images/grasp.png' alt="sym" width="100%"></div></div>
+  <img src='images/wenyan_yang_grasp.png' alt="sym" width="100%"></div></div>
   <div class='paper-box-text' markdown="1">
 
   [**General graping controller for Motoman NX100**]
