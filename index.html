@@ -378,8 +378,9 @@
   function render() {
     var out = [];
     if (sort === 'year') {
-      var years = pubs.map(function (p) { return p.dataset.year; }).filter(function (y, i, a) { return a.indexOf(y) === i; }).sort().reverse();
-      years.forEach(function (y) { out.push(head(y)); pubs.forEach(function (p) { if (p.dataset.year === y) out.push(p); }); });
+      var sel = pubs.filter(function (p) { return cat === 'all' || p.dataset.cat === cat; });
+      var years = sel.map(function (p) { return p.dataset.year; }).filter(function (y, i, a) { return a.indexOf(y) === i; }).sort().reverse();
+      years.forEach(function (y) { out.push(head(y)); sel.forEach(function (p) { if (p.dataset.year === y) out.push(p); }); });
     } else {
       CATS.forEach(function (c) {
         if (cat !== 'all' && cat !== c[0]) return;
@@ -389,7 +390,6 @@
     }
     while (list.firstChild) list.removeChild(list.firstChild);
     out.forEach(function (n) { list.appendChild(n); });
-    tabs.hidden = sort !== 'category';
     [].forEach.call(bar.querySelectorAll('[data-sort]'), function (b) { b.classList.toggle('on', b.dataset.sort === sort); });
     [].forEach.call(tabs.querySelectorAll('button'), function (b) { b.classList.toggle('on', b.dataset.cat === cat); b.setAttribute('aria-selected', b.dataset.cat === cat); });
     [].forEach.call(list.querySelectorAll('video'), function (v) { var p = v.play(); if (p && p.catch) p.catch(function () {}); });
