@@ -240,7 +240,7 @@ PAGE = '''<!doctype html>
 <h2 class="sec">📝 Publications <a class="chip" style="margin-left:auto;font-weight:400" href="https://scholar.google.com/citations?user=0bTF5XUAAAAJ">Google Scholar →</a></h2>
 <div class="pubbar" id="pubbar" hidden>
 <div class="seg" role="group" aria-label="Sort publications by"><span class="seg-label">Sort by</span>
-<button type="button" data-sort="category" class="on">Category</button><button type="button" data-sort="year">Year</button></div>
+<button type="button" data-sort="year" class="on">Year</button><button type="button" data-sort="category">Category</button></div>
 <div class="tabs" id="cat-tabs" role="tablist" aria-label="Publication category">
 <button type="button" role="tab" data-cat="all" class="on">All</button>
 <button type="button" role="tab" data-cat="ongoing">On-going Research</button>
@@ -319,7 +319,7 @@ __VISION__
   if (!list || !bar) return;
   var pubs = [].slice.call(list.querySelectorAll('.pub'));
   var CATS = [['ongoing', 'On-going Research'], ['robot', 'Cross-Morphology Transfer and Robot Learning'], ['rl', 'Reinforcement Learning and Exploration'], ['vision', 'Visual Representation Learning']];
-  var sort = 'category', cat = 'all';
+  var sort = 'year', cat = 'all';
   var tabs = document.getElementById('cat-tabs');
   function head(t) { var h = document.createElement('h3'); h.className = 'sub'; h.textContent = t; return h; }
   function count(c) { return pubs.filter(function (p) { return c === 'all' || p.dataset.cat === c; }).length; }
