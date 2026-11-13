@@ -11,7 +11,8 @@ ROOT = Path(__file__).resolve().parent.parent
 ICON = {'OpenReview': '📝', 'Patent': '📑', 'Paper': '📄', 'arXiv': '📜', 'Code': '💻', 'Project': '🌐', 'Dataset': '🗂️', 'Video': '🎬'}
 
 
-def pub(title, authors, venue, kind='Conference', vclass='', tldr='', img=None, video=None, links=(), small=False):
+def pub(title, authors, venue, kind='Conference', vclass='', tldr='', img=None, video=None, links=(), small=False, key='', after=''):
+    # key: element id; after: key of the entry this one follows when sorted by year
     media = ''
     if video:
         media += (f'<video autoplay muted loop playsinline preload="metadata" poster="videos/{video}.jpg">'
@@ -24,7 +25,7 @@ def pub(title, authors, venue, kind='Conference', vclass='', tldr='', img=None, 
     btns = ''.join(f'<a class="btn" href="{u}">{ICON.get(n, "")} {n}</a>' for n, u in links)
     m = re.search(r'(19|20)\d{2}', venue)
     year = m.group(0) if m else '2026'
-    return f'''<article class="pub{' small' if small else ''}" data-year="{year}" data-cat="__CAT__">
+    return f'''<article class="pub{' small' if small else ''}" data-year="{year}" data-cat="__CAT__"{f' id="pub-{key}"' if key else ''}{f' data-after="pub-{after}"' if after else ''}>
 <div class="media">{media}</div>
 <div class="pub-body">
 <h3 class="pub-title">{t}</h3>
@@ -62,7 +63,7 @@ ROBOT = [
         tldr='One human or robot demonstration is retargeted into executed whole-body mobile-manipulation demonstrations '
              'for robots with very different bodies: Spot, Panda-Omron and Unitree G1 in simulation, and Spot in the real world. '
              '(* equal contribution)',
-        img='pubs/cromogen.png', video='cromogen'),
+        img='pubs/cromogen.png', video='cromogen', key='cromogen'),
     pub('Why Cross-Skeleton Retargeting Is Non-Identifiable: Structural Limits of Generative Motion Models',
         'Zhiyuan Li, Wenyan Yang, Pekka Marttinen, Joni Pajarinen', 'NeurIPS 2026',
         tldr='Under standard generative objectives, sparse multi-body motion data cannot pin down which source-to-target map '
@@ -122,7 +123,8 @@ ROBOT = [
 
 RL = [
     pub('SUN: Reaching for Novelty in Reinforcement Learning',
-        'Wenyan Yang, Arsenii Mustafin, Dominik Baumann, Joni Pajarinen, Simone Parisi', **REVIEW,
+        'Wenyan Yang, Arsenii Mustafin, Dominik Baumann, Joni Pajarinen, Simone Parisi',
+        venue='EWRL 2026</span><span class="venue review">Under review', kind='Workshop', vclass='workshop', after='cromogen',
         tldr='Novelty alone sends an agent to goals it cannot reach, and reachability alone gives no exploration. SUN is a '
              'single goal-selection indicator, built on successor value functions, that scores goals that are both novel and reachable.',
         img='pubs/sun.png', links=[('arXiv', 'https://arxiv.org/abs/2609.08642'), ('Code', 'https://github.com/sparisi/rl-anvil')]),
@@ -333,7 +335,15 @@ __VISION__
     if (sort === 'year') {
       var sel = pubs.filter(function (p) { return cat === 'all' || p.dataset.cat === cat; });
       var years = sel.map(function (p) { return p.dataset.year; }).filter(function (y, i, a) { return a.indexOf(y) === i; }).sort().reverse();
-      years.forEach(function (y) { out.push(head(y)); sel.forEach(function (p) { if (p.dataset.year === y) out.push(p); }); });
+      years.forEach(function (y) {
+        var ys = sel.filter(function (p) { return p.dataset.year === y; });
+        ys.filter(function (p) { return p.dataset.after; }).forEach(function (p) {
+          var a = ys.filter(function (q) { return q.id === p.dataset.after; })[0], i = ys.indexOf(a);
+          if (i < 0) return;
+          ys.splice(ys.indexOf(p), 1); ys.splice(ys.indexOf(a) + 1, 0, p);
+        });
+        out.push(head(y)); ys.forEach(function (p) { out.push(p); });
+      });
     } else {
       CATS.forEach(function (c) {
         if (cat !== 'all' && cat !== c[0]) return;
