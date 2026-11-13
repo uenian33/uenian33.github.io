@@ -91,7 +91,7 @@
 <div class="pub-body">
 <h3 class="pub-title">Human-to-Any-Robot Motion Retargeting: One Learning-Free Retargeter for Arbitrary Morphologies</h3>
 
-<div class="meta"><span class="venue ongoing">Ongoing</span><span class="type">Research preview</span></div>
+<div class="meta"><span class="venue ongoing">Ongoing</span><span class="type">Unpublished</span><span class="type">Research preview</span></div>
 <p class="tldr">A single learning-free retargeter maps human motion and human-object interaction (CMU mocap, OMOMO) onto robots with very different bodies. The video shows the same human clips on a quadruped with two arms (ANYmal C + two Z1), Spot with an arm, a Unitree G1 humanoid and a differential-drive base with a Lite6 arm, across locomotion, gesture and object-carrying tasks.</p>
 
 </div>
@@ -101,7 +101,7 @@
 <div class="pub-body">
 <h3 class="pub-title">From Onboard Cameras to Actions: A Language-Driven Spot Agent with Semantic Scene Memory</h3>
 
-<div class="meta"><span class="venue ongoing">Ongoing</span><span class="type">Research preview</span></div>
+<div class="meta"><span class="venue ongoing">Ongoing</span><span class="type">Unpublished</span><span class="type">Research preview</span></div>
 <p class="tldr">Spot explores a kitchen with its own body and arm cameras, fuses the views into a semantic map and an object memory, and a vision-language planner calls walking, looking and grasping skills as tools to finish a spoken task (here: “pick up the donut”). Developed in simulation with Spot’s real camera rig, for transfer to the real robot.</p>
 
 </div>
@@ -323,14 +323,42 @@
 <div class="links"><a class="btn" href="https://patents.google.com/patent/WO2022008793A1/en">📑 Patent</a></div>
 </div>
 </article>
-<div class="proj"><b>360° Video Object Detection</b><span class="when">Nokia · 2017 – 2018</span>
-<p>Object detection in 360° videos for the Nokia OZO camera, with a panoramic object detection <a href="https://github.com/uenian33/360_object_detection_dataset">dataset</a> and a YOLO-based baseline.</p></div>
-<div class="proj"><b>Depth Image Data Augmentation</b>
-<p>A Python library that generates SGM-style stereo disparity maps from a single RGB image, for augmenting data to look like real depth-camera images. <a href="https://github.com/uenian33/mono2SGM">Code</a></p></div>
-<div class="proj"><b>General Grasping Controller for Motoman NX100</b>
-<p>A depth-image-based grasp pose estimator for the Motoman NX100. <a href="https://github.com/uenian33/nx100_robotic_tasks">Code</a> · <a href="https://www.youtube.com/watch?v=NBE9e7AJw6I">Video</a></p></div>
-<div class="proj"><b>VOT2022 Challenge</b>
-<p>Co-author of <a href="https://link.springer.com/chapter/10.1007/978-3-031-25085-9_25">The Tenth Visual Object Tracking VOT2022 Challenge Results</a> (ECCV 2022 Workshops).</p></div>
+<article class="pub">
+<div class="media"><img src="images/pubs/proj_360.png" alt="" loading="lazy"></div>
+<div class="pub-body">
+<h3 class="pub-title"><a href="https://github.com/uenian33/360_object_detection_dataset">360° Video Object Detection for the Nokia OZO Camera</a></h3>
+<div class="meta"><span class="venue">Nokia</span><span class="type">Industry project · 2017 – 2018</span></div>
+<p class="tldr">Object detection in 360° videos for the Nokia OZO camera, for example to check that construction workers follow safety instructions. The project produced a panoramic object detection dataset and a multi-projection YOLO baseline that keeps small and distorted objects detectable.</p>
+<div class="links"><a class="btn" href="https://github.com/uenian33/360_object_detection_dataset">🗂️ Dataset</a><a class="btn" href="https://arxiv.org/abs/1805.08009">📄 Paper</a></div>
+</div>
+</article>
+<article class="pub">
+<div class="media"><div class="yt"><iframe src="https://www.youtube-nocookie.com/embed/NBE9e7AJw6I?autoplay=1&mute=1&loop=1&playlist=NBE9e7AJw6I&controls=1&rel=0" title="Motoman NX100 grasping demo" loading="lazy" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe></div><img src="images/wenyan_yang_grasp.png" alt="" loading="lazy"></div>
+<div class="pub-body">
+<h3 class="pub-title"><a href="https://github.com/uenian33/nx100_robotic_tasks">General Grasping Controller for Motoman NX100</a></h3>
+<div class="meta"><span class="venue">Robot project</span><span class="type">Depth-based grasping</span></div>
+<p class="tldr">A grasping pipeline for the Motoman NX100 industrial arm: object detection, object pose estimation and grasp pose estimation from stereo depth images, then execution on the robot.</p>
+<div class="links"><a class="btn" href="https://github.com/uenian33/nx100_robotic_tasks">💻 Code</a><a class="btn" href="https://www.youtube.com/watch?v=NBE9e7AJw6I">🎬 Video</a></div>
+</div>
+</article>
+<article class="pub">
+<div class="media"><img src="images/pubs/proj_depth.jpg" alt="" loading="lazy"></div>
+<div class="pub-body">
+<h3 class="pub-title"><a href="https://github.com/uenian33/mono2SGM">Depth Image Data Augmentation: Realistic Stereo Depth from a Single RGB Image</a></h3>
+<div class="meta"><span class="venue">Open source</span><span class="type">Python library</span></div>
+<p class="tldr">Generates a synthetic right-eye view from one RGB image and runs semi-global matching on the pair, so that clean depth maps are turned into disparity images with the holes and noise of a real stereo depth camera. Used as data augmentation for depth-based models.</p>
+<div class="links"><a class="btn" href="https://github.com/uenian33/mono2SGM">💻 Code</a></div>
+</div>
+</article>
+<article class="pub">
+<div class="media"><img src="images/pubs/proj_vot.png" alt="" loading="lazy"></div>
+<div class="pub-body">
+<h3 class="pub-title"><a href="https://link.springer.com/chapter/10.1007/978-3-031-25085-9_25">The Tenth Visual Object Tracking VOT2022 Challenge Results</a></h3>
+<div class="meta"><span class="venue">ECCV 2022 Workshops</span><span class="type">Challenge organisation and evaluation</span></div>
+<p class="tldr">Co-author of the VOT2022 challenge report; contributed to the organisation and evaluation of the challenge, which includes the RGB-D and depth-only tracking tracks shown here.</p>
+<div class="links"><a class="btn" href="https://link.springer.com/chapter/10.1007/978-3-031-25085-9_25">📄 Paper</a></div>
+</div>
+</article>
 </section>
 
 <footer>© Wenyan Yang · Last updated November 2026</footer>
