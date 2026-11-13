@@ -41,11 +41,13 @@ REVIEW = dict(venue='Under review', kind='Manuscript', vclass='review')
 ONGOING = [
     pub('Human-to-Any-Robot Motion Retargeting: One Learning-Free Retargeter for Arbitrary Morphologies', '',
         venue='Ongoing', kind='Unpublished</span><span class="type">Research preview', vclass='ongoing',
-        tldr='A single learning-free retargeter maps human motion and human-object interaction (CMU mocap, OMOMO) onto robots '
-             'with very different bodies. The video shows the same human clips on a quadruped with two arms (ANYmal C + two Z1), '
-             'Spot with an arm, a Unitree G1 humanoid and a differential-drive base with a Lite6 arm, across locomotion, '
-             'gesture and object-carrying tasks.',
-        video='retarget_any'),
+        tldr='A single learning-free retargeter maps human motion and human-object interaction onto robots with very '
+             'different bodies. The video plays 36 clips at once, with the source human skeleton in blue beside each robot. '
+             'Columns are six robots: Unitree G1, Unitree H1, Spot with an arm, ANYmal C with two Z1 arms, a hexapod with an '
+             'SO-101 arm and a wheeled base with a Lite6 arm. Rows are six tasks: walking, turning in place and boxing '
+             '(motion retargeting, CMU mocap), then pulling a suitcase, picking up a monitor and carrying a box '
+             '(object-interaction retargeting, OMOMO).',
+        video='retarget_6x6', links=[('Video', 'videos/retarget_6x6.mp4')]),
     pub('From Onboard Cameras to Actions: A Language-Driven Spot Agent with Semantic Scene Memory', '',
         venue='Ongoing', kind='Unpublished</span><span class="type">Research preview', vclass='ongoing',
         tldr='Spot explores a kitchen with its own body and arm cameras, fuses the views into a semantic map and an object '
