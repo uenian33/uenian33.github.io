@@ -25,14 +25,14 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Wenyan Yang"
   avatar           : "images/wenyan_yang.jpg"
-  bio              : ""
-  location         : "Finland"
-  employer         :
+  bio              : "Postdoctoral Researcher, Robot Learning Lab"
+  location         : "Espoo, Finland"
+  employer         : "Aalto University"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=0bTF5XUAAAAJ"
-  email            : "wenyany94@gmail.com"
+  email            : "wenyan.yang@aalto.fi"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
-  CV               : "https://scholar.google.com/citations?user=0bTF5XUAAAAJ"
+  CV               : "/files/Wenyan_Yang_CV.pdf"
   bitbucket        :
   codepen          :
   dribbble         :
@@ -67,6 +67,8 @@ include:
   - _pages
   - files
 exclude:
+  - tools
+  - backup
   - docs
   - google_scholar_crawler
   - "*.sublime-project"
