@@ -199,7 +199,6 @@ PAGE = '''<!doctype html>
 <a class="chip" href="https://scholar.google.com/citations?user=0bTF5XUAAAAJ">Google Scholar</a>
 <a class="chip" href="https://github.com/uenian33">GitHub</a>
 <a class="chip" href="https://www.linkedin.com/in/wenyan-yang-523703268">LinkedIn</a>
-<a class="chip" href="files/Wenyan_Yang_CV.pdf">CV</a>
 </div></div>
 <div class="blk"><h4>🔬 Research Interests</h4><div class="chips">
 <span class="chip">Cross-Morphology Transfer</span><span class="chip">Reinforcement Learning &amp; Exploration</span>
