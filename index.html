@@ -78,12 +78,34 @@
 <button type="button" data-sort="category" class="on">Category</button><button type="button" data-sort="year">Year</button></div>
 <div class="tabs" id="cat-tabs" role="tablist" aria-label="Publication category">
 <button type="button" role="tab" data-cat="all" class="on">All</button>
+<button type="button" role="tab" data-cat="ongoing">On-going Research</button>
 <button type="button" role="tab" data-cat="robot">Robot Learning</button>
 <button type="button" role="tab" data-cat="rl">Reinforcement Learning</button>
 <button type="button" role="tab" data-cat="vision">Visual Representation</button>
 </div>
 </div>
 <div id="publist">
+<h3 class="sub">On-going Research</h3>
+<article class="pub" data-year="2026" data-cat="ongoing">
+<div class="media"><video autoplay muted loop playsinline preload="metadata" poster="videos/retarget_any.jpg"><source src="videos/retarget_any.mp4" type="video/mp4"></video></div>
+<div class="pub-body">
+<h3 class="pub-title">Human-to-Any-Robot Motion Retargeting: One Learning-Free Retargeter for Arbitrary Morphologies</h3>
+
+<div class="meta"><span class="venue ongoing">Ongoing</span><span class="type">Research preview</span></div>
+<p class="tldr">A single learning-free retargeter maps human motion and human-object interaction (CMU mocap, OMOMO) onto robots with very different bodies. The video shows the same human clips on a quadruped with two arms (ANYmal C + two Z1), Spot with an arm, a Unitree G1 humanoid and a differential-drive base with a Lite6 arm, across locomotion, gesture and object-carrying tasks.</p>
+
+</div>
+</article>
+<article class="pub" data-year="2026" data-cat="ongoing">
+<div class="media"><video autoplay muted loop playsinline preload="metadata" poster="videos/spot_agent.jpg"><source src="videos/spot_agent.mp4" type="video/mp4"></video></div>
+<div class="pub-body">
+<h3 class="pub-title">From Onboard Cameras to Actions: A Language-Driven Spot Agent with Semantic Scene Memory</h3>
+
+<div class="meta"><span class="venue ongoing">Ongoing</span><span class="type">Research preview</span></div>
+<p class="tldr">Spot explores a kitchen with its own body and arm cameras, fuses the views into a semantic map and an object memory, and a vision-language planner calls walking, looking and grasping skills as tools to finish a spoken task (here: “pick up the donut”). Developed in simulation with Spot’s real camera rig, for transfer to the real robot.</p>
+
+</div>
+</article>
 <h3 class="sub">Cross-Morphology Transfer and Robot Learning</h3>
 <article class="pub" data-year="2026" data-cat="robot">
 <div class="media"><video autoplay muted loop playsinline preload="metadata" poster="videos/cromogen.jpg"><source src="videos/cromogen.mp4" type="video/mp4"></video><img src="images/pubs/cromogen.png" alt="" loading="lazy"></div>
@@ -113,6 +135,16 @@
 <div class="meta"><span class="venue ">CoRL 2025</span><span class="type">Conference</span></div>
 <p class="tldr">Vis2Plan: vision foundation models turn unlabeled play data into symbolic task states; a symbolic planner then guides fast, physically consistent visual subgoal plans for long-horizon manipulation, in simulation and on a real Spot.</p>
 <div class="links"><a class="btn" href="https://proceedings.mlr.press/v305/yang25c.html">📄 Paper</a><a class="btn" href="https://arxiv.org/abs/2505.08444">📜 arXiv</a><a class="btn" href="https://sites.google.com/view/vis2plan/home">🌐 Project</a></div>
+</div>
+</article>
+<article class="pub" data-year="2026" data-cat="robot">
+<div class="media"><video autoplay muted loop playsinline preload="metadata" poster="videos/remobot.jpg"><source src="videos/remobot.mp4" type="video/mp4"></video><img src="images/pubs/remobot.png" alt="" loading="lazy"></div>
+<div class="pub-body">
+<h3 class="pub-title"><a href="https://ieeexplore.ieee.org/abstract/document/11658109/">ReMoBot: Retrieval-Based Few-Shot Imitation Learning for Mobile Manipulation</a></h3>
+<p class="authors">Yuying Zhang, <strong>Wenyan Yang</strong>, Francesco Verdoja, Ville Kyrki, Joni Pajarinen</p>
+<div class="meta"><span class="venue ">AIM 2026</span><span class="type">Conference</span></div>
+<p class="tldr">With only 20 demonstrations and no extra training, a Spot robot solves mobile manipulation tasks by retrieving the most relevant demonstrated trajectories with vision-foundation-model features and replaying their actions. An earlier version appeared at the CoRL 2025 RemembeRL Workshop.</p>
+<div class="links"><a class="btn" href="https://ieeexplore.ieee.org/abstract/document/11658109/">📄 Paper</a><a class="btn" href="https://openreview.net/forum?id=k4jVv0KDDp">📝 OpenReview</a><a class="btn" href="https://arxiv.org/abs/2408.15919">📜 arXiv</a><a class="btn" href="https://sites.google.com/view/remobot/home">🌐 Project</a></div>
 </div>
 </article>
 <article class="pub" data-year="2026" data-cat="robot">
@@ -281,10 +313,16 @@
 
 <section class="card" id="projects">
 <h2 class="sec">🛠️ Projects &amp; Patent</h2>
-<div class="proj"><b>Autonomous Industrial Crane Controller</b><span class="when">Cargotec · 2019 – 2022</span>
-<p>A reinforcement-learning-based controller for industrial cranes that handles container logistics autonomously, within the DSII project. The work resulted in a <a href="https://patents.google.com/patent/WO2022008793A1/en">WO patent</a> and a solution delivered on real cranes.</p></div>
-<div class="proj"><b>Patent: Method and apparatus for relative positioning of a spreader</b><span class="when">WO2022008793A1 · 2022</span>
-<p><strong>Wenyan Yang</strong>, Mohammad Aref, Juho Vihonen, Jyri Lukkala, Mikko Asikainen, Hannu Santahuhta. <a href="https://patents.google.com/patent/WO2022008793A1/en">Google Patents</a></p></div>
+<article class="pub">
+<div class="media"><video autoplay muted loop playsinline preload="metadata" poster="videos/crane.jpg"><source src="videos/crane.mp4" type="video/mp4"></video></div>
+<div class="pub-body">
+<h3 class="pub-title"><a href="https://patents.google.com/patent/WO2022008793A1/en">Autonomous Industrial Crane Controller: Relative Positioning of a Container Spreader</a></h3>
+<p class="authors"><strong>Wenyan Yang</strong>, Mohammad Aref, Juho Vihonen, Jyri Lukkala, Mikko Asikainen, Hannu Santahuhta</p>
+<div class="meta"><span class="venue">WO Patent 2022</span><span class="type">Cargotec · DSII project · 2019 – 2022</span></div>
+<p class="tldr">A learning-based controller that positions a crane's spreader relative to a container from the spreader's own corner cameras (shown in the video), so that containers can be picked and placed autonomously. The work resulted in patent WO2022008793A1 and a solution delivered on real cranes.</p>
+<div class="links"><a class="btn" href="https://patents.google.com/patent/WO2022008793A1/en">📑 Patent</a></div>
+</div>
+</article>
 <div class="proj"><b>360° Video Object Detection</b><span class="when">Nokia · 2017 – 2018</span>
 <p>Object detection in 360° videos for the Nokia OZO camera, with a panoramic object detection <a href="https://github.com/uenian33/360_object_detection_dataset">dataset</a> and a YOLO-based baseline.</p></div>
 <div class="proj"><b>Depth Image Data Augmentation</b>
@@ -302,7 +340,7 @@
   var list = document.getElementById('publist'), bar = document.getElementById('pubbar');
   if (!list || !bar) return;
   var pubs = [].slice.call(list.querySelectorAll('.pub'));
-  var CATS = [['robot', 'Cross-Morphology Transfer and Robot Learning'], ['rl', 'Reinforcement Learning and Exploration'], ['vision', 'Visual Representation Learning']];
+  var CATS = [['ongoing', 'On-going Research'], ['robot', 'Cross-Morphology Transfer and Robot Learning'], ['rl', 'Reinforcement Learning and Exploration'], ['vision', 'Visual Representation Learning']];
   var sort = 'category', cat = 'all';
   var tabs = document.getElementById('cat-tabs');
   function head(t) { var h = document.createElement('h3'); h.className = 'sub'; h.textContent = t; return h; }

@@ -8,7 +8,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 
-ICON = {'Paper': '📄', 'arXiv': '📜', 'Code': '💻', 'Project': '🌐', 'Dataset': '🗂️', 'Video': '🎬'}
+ICON = {'OpenReview': '📝', 'Patent': '📑', 'Paper': '📄', 'arXiv': '📜', 'Code': '💻', 'Project': '🌐', 'Dataset': '🗂️', 'Video': '🎬'}
 
 
 def pub(title, authors, venue, kind='Conference', vclass='', tldr='', img=None, video=None, links=(), small=False):
@@ -28,7 +28,7 @@ def pub(title, authors, venue, kind='Conference', vclass='', tldr='', img=None, 
 <div class="media">{media}</div>
 <div class="pub-body">
 <h3 class="pub-title">{t}</h3>
-<p class="authors">{authors}</p>
+{f'<p class="authors">{authors}</p>' if authors else ''}
 <div class="meta"><span class="venue {vclass}">{venue}</span><span class="type">{kind}</span></div>
 {f'<p class="tldr">{tldr}</p>' if tldr else ''}
 {f'<div class="links">{btns}</div>' if btns else ''}
@@ -37,6 +37,22 @@ def pub(title, authors, venue, kind='Conference', vclass='', tldr='', img=None, 
 
 
 REVIEW = dict(venue='Under review', kind='Manuscript', vclass='review')
+
+ONGOING = [
+    pub('Human-to-Any-Robot Motion Retargeting: One Learning-Free Retargeter for Arbitrary Morphologies', '',
+        venue='Ongoing', kind='Research preview', vclass='ongoing',
+        tldr='A single learning-free retargeter maps human motion and human-object interaction (CMU mocap, OMOMO) onto robots '
+             'with very different bodies. The video shows the same human clips on a quadruped with two arms (ANYmal C + two Z1), '
+             'Spot with an arm, a Unitree G1 humanoid and a differential-drive base with a Lite6 arm, across locomotion, '
+             'gesture and object-carrying tasks.',
+        video='retarget_any'),
+    pub('From Onboard Cameras to Actions: A Language-Driven Spot Agent with Semantic Scene Memory', '',
+        venue='Ongoing', kind='Research preview', vclass='ongoing',
+        tldr='Spot explores a kitchen with its own body and arm cameras, fuses the views into a semantic map and an object '
+             'memory, and a vision-language planner calls walking, looking and grasping skills as tools to finish a spoken task '
+             '(here: “pick up the donut”). Developed in simulation with Spot’s real camera rig, for transfer to the real robot.',
+        video='spot_agent'),
+]
 
 ROBOT = [
     pub('CroMoGen: Cross-Morphology Demonstration Retargeting for Mobile Manipulation',
@@ -61,6 +77,15 @@ ROBOT = [
         img='pubs/vis2plan.png', video='vis2plan',
         links=[('Paper', 'https://proceedings.mlr.press/v305/yang25c.html'), ('arXiv', 'https://arxiv.org/abs/2505.08444'),
                ('Project', 'https://sites.google.com/view/vis2plan/home')]),
+    pub('ReMoBot: Retrieval-Based Few-Shot Imitation Learning for Mobile Manipulation',
+        'Yuying Zhang, Wenyan Yang, Francesco Verdoja, Ville Kyrki, Joni Pajarinen', 'AIM 2026',
+        tldr='With only 20 demonstrations and no extra training, a Spot robot solves mobile manipulation tasks by retrieving '
+             'the most relevant demonstrated trajectories with vision-foundation-model features and replaying their actions. '
+             'An earlier version appeared at the CoRL 2025 RemembeRL Workshop.',
+        img='pubs/remobot.png', video='remobot',
+        links=[('Paper', 'https://ieeexplore.ieee.org/abstract/document/11658109/'),
+               ('OpenReview', 'https://openreview.net/forum?id=k4jVv0KDDp'),
+               ('arXiv', 'https://arxiv.org/abs/2408.15919'), ('Project', 'https://sites.google.com/view/remobot/home')]),
     pub('Learning Spatial Alignment for Underwater Robots with Limited Real-World Data',
         'Yang Weng, Yongxi Cao, Wenyan Yang, Motoki Sakai, Jinyu Tong, Hiroki Yokohata, Yuichi Motegi, Sehwa Chun, '
         'Joni Pajarinen, Toshihiro Maki', **REVIEW,
@@ -219,12 +244,15 @@ PAGE = '''<!doctype html>
 <button type="button" data-sort="category" class="on">Category</button><button type="button" data-sort="year">Year</button></div>
 <div class="tabs" id="cat-tabs" role="tablist" aria-label="Publication category">
 <button type="button" role="tab" data-cat="all" class="on">All</button>
+<button type="button" role="tab" data-cat="ongoing">On-going Research</button>
 <button type="button" role="tab" data-cat="robot">Robot Learning</button>
 <button type="button" role="tab" data-cat="rl">Reinforcement Learning</button>
 <button type="button" role="tab" data-cat="vision">Visual Representation</button>
 </div>
 </div>
 <div id="publist">
+<h3 class="sub">On-going Research</h3>
+__ONGOING__
 <h3 class="sub">Cross-Morphology Transfer and Robot Learning</h3>
 __ROBOT__
 <h3 class="sub">Reinforcement Learning and Exploration</h3>
@@ -236,10 +264,16 @@ __VISION__
 
 <section class="card" id="projects">
 <h2 class="sec">🛠️ Projects &amp; Patent</h2>
-<div class="proj"><b>Autonomous Industrial Crane Controller</b><span class="when">Cargotec · 2019 – 2022</span>
-<p>A reinforcement-learning-based controller for industrial cranes that handles container logistics autonomously, within the DSII project. The work resulted in a <a href="https://patents.google.com/patent/WO2022008793A1/en">WO patent</a> and a solution delivered on real cranes.</p></div>
-<div class="proj"><b>Patent: Method and apparatus for relative positioning of a spreader</b><span class="when">WO2022008793A1 · 2022</span>
-<p><strong>Wenyan Yang</strong>, Mohammad Aref, Juho Vihonen, Jyri Lukkala, Mikko Asikainen, Hannu Santahuhta. <a href="https://patents.google.com/patent/WO2022008793A1/en">Google Patents</a></p></div>
+<article class="pub">
+<div class="media"><video autoplay muted loop playsinline preload="metadata" poster="videos/crane.jpg"><source src="videos/crane.mp4" type="video/mp4"></video></div>
+<div class="pub-body">
+<h3 class="pub-title"><a href="https://patents.google.com/patent/WO2022008793A1/en">Autonomous Industrial Crane Controller: Relative Positioning of a Container Spreader</a></h3>
+<p class="authors"><strong>Wenyan Yang</strong>, Mohammad Aref, Juho Vihonen, Jyri Lukkala, Mikko Asikainen, Hannu Santahuhta</p>
+<div class="meta"><span class="venue">WO Patent 2022</span><span class="type">Cargotec · DSII project · 2019 – 2022</span></div>
+<p class="tldr">A learning-based controller that positions a crane's spreader relative to a container from the spreader's own corner cameras (shown in the video), so that containers can be picked and placed autonomously. The work resulted in patent WO2022008793A1 and a solution delivered on real cranes.</p>
+<div class="links"><a class="btn" href="https://patents.google.com/patent/WO2022008793A1/en">📑 Patent</a></div>
+</div>
+</article>
 <div class="proj"><b>360° Video Object Detection</b><span class="when">Nokia · 2017 – 2018</span>
 <p>Object detection in 360° videos for the Nokia OZO camera, with a panoramic object detection <a href="https://github.com/uenian33/360_object_detection_dataset">dataset</a> and a YOLO-based baseline.</p></div>
 <div class="proj"><b>Depth Image Data Augmentation</b>
@@ -257,7 +291,7 @@ __VISION__
   var list = document.getElementById('publist'), bar = document.getElementById('pubbar');
   if (!list || !bar) return;
   var pubs = [].slice.call(list.querySelectorAll('.pub'));
-  var CATS = [['robot', 'Cross-Morphology Transfer and Robot Learning'], ['rl', 'Reinforcement Learning and Exploration'], ['vision', 'Visual Representation Learning']];
+  var CATS = [['ongoing', 'On-going Research'], ['robot', 'Cross-Morphology Transfer and Robot Learning'], ['rl', 'Reinforcement Learning and Exploration'], ['vision', 'Visual Representation Learning']];
   var sort = 'category', cat = 'all';
   var tabs = document.getElementById('cat-tabs');
   function head(t) { var h = document.createElement('h3'); h.className = 'sub'; h.textContent = t; return h; }
@@ -302,7 +336,7 @@ def group(items, cat):
     return '\n'.join(items).replace('__CAT__', cat)
 
 
-html = (PAGE.replace('__ROBOT__', group(ROBOT, 'robot')).replace('__RL__', group(RL, 'rl')).replace('__VISION__', group(VISION, 'vision')))
+html = (PAGE.replace('__ONGOING__', group(ONGOING, 'ongoing')).replace('__ROBOT__', group(ROBOT, 'robot')).replace('__RL__', group(RL, 'rl')).replace('__VISION__', group(VISION, 'vision')))
 html = re.sub(r'<div class="media"></div>\n', '', html)
 (ROOT / 'index.html').write_text(html, encoding='utf-8')
 print('wrote', ROOT / 'index.html', len(html))
