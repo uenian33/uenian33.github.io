@@ -58,12 +58,12 @@ ONGOING = [
 ]
 
 ROBOT = [
-    pub('CroMoGen: Cross-Morphology Demonstration Retargeting for Mobile Manipulation',
+    pub('One Demonstration, Many Robots: Transferring Mobile Manipulation Demonstrations Across Embodiments',
         'Jaakko Tuomisto*, Wenyan Yang*, Joni Pajarinen', **REVIEW,
         tldr='One human or robot demonstration is retargeted into executed whole-body mobile-manipulation demonstrations '
              'for robots with very different bodies: Spot, Panda-Omron and Unitree G1 in simulation, and Spot in the real world. '
              '(* equal contribution)',
-        img='pubs/cromogen.png', video='cromogen', key='cromogen'),
+        img='pubs/onedemo.png', video='onedemo', key='onedemo'),
     pub('Why Cross-Skeleton Retargeting Is Non-Identifiable: Structural Limits of Generative Motion Models',
         'Zhiyuan Li, Wenyan Yang, Pekka Marttinen, Joni Pajarinen', 'NeurIPS 2026',
         tldr='Under standard generative objectives, sparse multi-body motion data cannot pin down which source-to-target map '
@@ -124,7 +124,7 @@ ROBOT = [
 RL = [
     pub('SUN: Reaching for Novelty in Reinforcement Learning',
         'Wenyan Yang, Arsenii Mustafin, Dominik Baumann, Joni Pajarinen, Simone Parisi',
-        venue='EWRL 2026</span><span class="venue review">Under review', kind='Workshop', vclass='workshop', after='cromogen',
+        venue='EWRL 2026</span><span class="venue review">Under review', kind='Workshop', vclass='workshop', after='onedemo',
         tldr='Novelty alone sends an agent to goals it cannot reach, and reachability alone gives no exploration. SUN is a '
              'single goal-selection indicator, built on successor value functions, that scores goals that are both novel and reachable.',
         img='pubs/sun.png', links=[('arXiv', 'https://arxiv.org/abs/2609.08642'), ('Code', 'https://github.com/sparisi/rl-anvil')]),
